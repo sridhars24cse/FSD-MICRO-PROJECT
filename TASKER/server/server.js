@@ -65,6 +65,10 @@ app.post('/auth/login', async (req, res) => {
   res.send({ token, leetcodeUsername: user.leetcodeUsername });
 });
 
+app.get("/", (req, res) => {
+  res.send("Server is running 🚀");
+});
+
 app.get('/tasks', auth, async (req, res) => {
   const tasks = await Task.find({ userId: req.user._id }).sort({ date: -1 });
   res.send(tasks);
