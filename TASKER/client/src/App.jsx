@@ -21,7 +21,7 @@ const localizer = dateFnsLocalizer({
   locales,
 });
 
-const API = 'https://fsd-micro-project.onrender.com/';
+const API = 'https://fsd-micro-project.onrender.com';
 
 const CAT_COLORS = [
   { bg: 'bg-rose-100 dark:bg-rose-500/20', text: 'text-rose-700 dark:text-rose-400', border: 'border-rose-300 dark:border-rose-500/50', hex: '#f43f5e' },
