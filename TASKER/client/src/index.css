@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark Mode Calendar overrides */
+.dark .rbc-calendar { background-color: #1e293b; color: #f8fafc; border-radius: 8px; border: 1px solid #334155; }
+.dark .rbc-month-view, .dark .rbc-time-view, .dark .rbc-agenda-view { border-color: #334155; }
+.dark .rbc-header { border-bottom: 1px solid #334155 !important; border-left: 1px solid #334155; padding: 8px 0; }
+.dark .rbc-month-row, .dark .rbc-day-bg { border-color: #334155 !important; }
+.dark .rbc-off-range-bg { background-color: #0f172a; }
+.dark .rbc-today { background-color: #334155; }
+.dark .rbc-event { background-color: #10b981; }
+.dark .rbc-time-header.rbc-overflowing { border-right: 1px solid #334155; }
+.dark .rbc-time-content { border-top: 2px solid #334155; }
+.dark .rbc-timeslot-group { border-bottom: 1px solid #334155; }
+.dark .rbc-time-gutter .rbc-timeslot-group { border-right: 1px solid #334155; }
+.dark .rbc-btn-group button { color: #f8fafc; background: #334155; border: 1px solid #475569; }
+.dark .rbc-btn-group button:hover { background: #475569; }
+.dark .rbc-btn-group button.rbc-active { background: #10b981; color: white; border-color: #10b981; }
+
+/* Light Mode Calendar overrides */
+.rbc-calendar { background-color: #ffffff; color: #0f172a; border-radius: 8px; border: 1px solid #e2e8f0; }
+.rbc-month-view, .rbc-time-view, .rbc-agenda-view { border-color: #e2e8f0; }
+.rbc-header { border-bottom: 1px solid #e2e8f0 !important; border-left: 1px solid #e2e8f0; padding: 8px 0; }
+.rbc-month-row, .rbc-day-bg { border-color: #e2e8f0 !important; }
+.rbc-off-range-bg { background-color: #f8fafc; }
+.rbc-today { background-color: #f1f5f9; }
+.rbc-event { background-color: #10b981; }
+.rbc-time-header.rbc-overflowing { border-right: 1px solid #e2e8f0; }
+.rbc-time-content { border-top: 2px solid #e2e8f0; }
+.rbc-timeslot-group { border-bottom: 1px solid #e2e8f0; }
+.rbc-time-gutter .rbc-timeslot-group { border-right: 1px solid #e2e8f0; }
+.rbc-btn-group button { color: #0f172a; background: #f1f5f9; border: 1px solid #cbd5e1; }
+.rbc-btn-group button:hover { background: #e2e8f0; }
+.rbc-btn-group button.rbc-active { background: #10b981; color: white; border-color: #10b981; }
