@@ -1,0 +1,12 @@
+{
+  "name": "tasker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "cd client && npm install && cd ../server && npm install",
+    "postinstall": "npm run setup",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "dev": "cd client && npm run dev"
+  }
+}

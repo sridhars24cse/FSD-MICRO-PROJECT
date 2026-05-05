@@ -1,0 +1,10 @@
+services:
+  - type: web_service
+    name: fsd-micro-project
+    env: node
+    buildCommand: cd TASKER && npm install && npm run build
+    startCommand: cd TASKER && npm start
+    autoDeploy: true
+    envVars:
+      - key: MONGO_URI
+      - key: JWT_SECRET
